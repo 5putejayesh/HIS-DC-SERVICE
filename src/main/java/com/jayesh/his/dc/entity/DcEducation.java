@@ -15,7 +15,7 @@ public class DcEducation {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer eduId;
-	private Integer caseNo;
+	private Long caseNo;
 	private String highestQual;
 	private Integer gradYear;
 	private String universityName;

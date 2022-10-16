@@ -11,12 +11,13 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name="DC_CASES")
-public class DcCases {
+public class DcCase {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer caseId;
-	private Integer caseNo;
+	//@GeneratedValue-->try this to generate caseNo
+	private Long caseNo;
 	private Integer appId;
 	private Integer planId;
 	

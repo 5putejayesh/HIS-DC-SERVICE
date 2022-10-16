@@ -18,7 +18,7 @@ public class DcChildren {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer childId;
-	private Integer caseNo;
+	private Long caseNo;
 	private LocalDate childDOB;
 	private Integer childSSN;
 
