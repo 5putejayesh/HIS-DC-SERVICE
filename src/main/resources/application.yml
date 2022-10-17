@@ -11,3 +11,7 @@ spring:
        hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
         format-sql: true
+        
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER

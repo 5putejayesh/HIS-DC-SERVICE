@@ -14,9 +14,9 @@ import lombok.Data;
 public class DcCase {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer caseId;
-	//@GeneratedValue-->try this to generate caseNo
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long caseNo;
 	private Integer appId;
 	private Integer planId;
