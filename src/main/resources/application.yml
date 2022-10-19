@@ -1,4 +1,7 @@
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
   datasource:
     url: jdbc:mysql://localhost:3306/hisARDB?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
@@ -11,7 +14,3 @@ spring:
        hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
         format-sql: true
-        
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
