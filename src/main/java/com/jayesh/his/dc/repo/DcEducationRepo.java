@@ -6,4 +6,5 @@ import com.jayesh.his.dc.entity.DcEducation;
 
 public interface DcEducationRepo extends JpaRepository<DcEducation, Integer> {
 
+	public DcEducation findByCaseNo(Long caseNo);
 }

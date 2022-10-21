@@ -5,9 +5,8 @@ import java.util.List;
 import lombok.Data;
 
 @Data
-public class DcSummary {
+public class ChildRequest {
 
-	private Income income;
-	private Education education;
+	private Long caseNo;
 	private List<Child> childs;
 }
