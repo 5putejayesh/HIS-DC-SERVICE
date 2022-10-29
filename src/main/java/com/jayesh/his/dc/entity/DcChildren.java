@@ -16,7 +16,7 @@ import lombok.Data;
 public class DcChildren {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer childId;
 	private Long caseNo;
 	private LocalDate childDOB;

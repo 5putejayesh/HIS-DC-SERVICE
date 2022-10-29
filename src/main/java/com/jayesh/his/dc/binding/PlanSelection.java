@@ -6,5 +6,5 @@ import lombok.Data;
 public class PlanSelection {
 
 	private Long caseNo;
-	private String planName;
+	private Integer planId;
 }

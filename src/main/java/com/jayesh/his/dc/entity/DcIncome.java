@@ -14,7 +14,7 @@ import lombok.Data;
 public class DcIncome {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer incomeId;
 	private Long caseNo;
 	private Integer empIncome;

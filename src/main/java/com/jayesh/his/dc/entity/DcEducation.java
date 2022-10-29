@@ -13,7 +13,7 @@ import lombok.Data;
 @Table(name="DC_EDUCATION")
 public class DcEducation {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer eduId;
 	private Long caseNo;
 	private String highestQual;
